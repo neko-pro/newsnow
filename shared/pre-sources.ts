@@ -14,18 +14,18 @@ const Time = {
 
 export const originSources = {
   "fastbull": {
-    name: "法布财经",
+    name: "Fastbull Finance and Economics",
     color: "emerald",
-    home: "https://www.fastbull.cn",
+    home: "https://www.fastbull.com",
     column: "finance",
     sub: {
       express: {
-        title: "快讯",
+        title: "News",
         type: "realtime",
         interval: Time.Realtime,
       },
       news: {
-        title: "头条",
+        title: "Headline",
         interval: Time.Common,
       },
     },
