@@ -2,30 +2,30 @@
  
   "fastbull": {
     "redirect": "fastbull-express",
-    "name": "法布财经",
+    "name": "Fastbull Finance and Economics",
     "type": "realtime",
     "column": "finance",
-    "home": "https://www.fastbull.cn",
+    "home": "https://www.fastbull.com",
     "color": "emerald",
     "interval": 120000,
-    "title": "快讯"
+    "title": "News"
   },
   "fastbull-express": {
-    "name": "法布财经",
+    "name": "Fastbull Finance and Economic",
     "type": "realtime",
     "column": "finance",
-    "home": "https://www.fastbull.cn",
+    "home": "https://www.fastbull.com",
     "color": "emerald",
     "interval": 120000,
-    "title": "快讯"
+    "title": "News"
   },
   "fastbull-news": {
-    "name": "法布财经",
+    "name": "Fastbull Finance and Economic",
     "column": "finance",
-    "home": "https://www.fastbull.cn",
+    "home": "https://www.fastbull.com",
     "color": "emerald",
     "interval": 1800000,
-    "title": "头条"
+    "title": "Headline"
   },
   "hackernews": {
     "name": "Hacker News",
