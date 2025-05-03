@@ -13,9 +13,9 @@ export function usePWA() {
     await delay(1000)
     if (localStorage.getItem("updated")) {
       localStorage.removeItem("updated")
-      toaster("更新成功，赶快体验吧", {
+      toaster("The update was successful, hurry up and experience it", {
         action: {
-          label: "查看更新",
+          label: "View updates",
           onClick: () => {
             window.open(`${Homepage}/releases/tag/v${Version}`)
           },
@@ -29,9 +29,9 @@ export function usePWA() {
       const resp = await myFetch("/latest")
 
       if (resp.v && resp.v !== Version) {
-        toaster("有更新，5 秒后自动更新", {
+        toaster("There is an update, it will be automatically updated after 5 seconds", {
           action: {
-            label: "立刻更新",
+            label: "Update now",
             onClick: update,
           },
           onDismiss: update,
